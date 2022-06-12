@@ -111,7 +111,7 @@ void showArr(EMPLE *ptrArr, int N)
     for (i = 0; i < N-1; i++)
     {
         printf("Clave: %s\t", (ptrArr+i)->clave);
-        printf("Sueld: %s\t", (ptrArr+i)->nombre);
+        printf("Nombre: %s\t", (ptrArr+i)->nombre);
         printf("Sueldo base: %.2f\t", (ptrArr+i)->sueldoBase);
         if((ptrArr+i)->bonoProductividad)
             printf("Tiene bono de productividad\t");
